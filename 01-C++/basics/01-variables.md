@@ -12,7 +12,9 @@
 
 ## What I Review Today
 
-Sa C++, ang **variables** ay parang lalagyan ng data sa memory. Kailangan nating sabihin kung anong uri ng data ang ilalagay bago natin ito gamitin. Huwag iwan na walang laman ang variables.
+In this lesson, we will learn about variables in C++ and how to declare and use them. We will also learn about the best practices in getting user input and how to use the getline() function to get user input with spaces.
+
+Variables is like a box that holds a value. We can use variables to store data that we want to use in our program. We can also use variables to store data that we get from the user.
 
 ---
 
