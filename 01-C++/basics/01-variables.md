@@ -1,4 +1,4 @@
-# 📘 C++ Variables - Lesson 01
+# C++ Variables - Lesson 01
 
 **Date Reviewed:** February 23, 2026
 
@@ -10,13 +10,13 @@
 
 ---
 
-## 📌 What I Review Today
+## What I Review Today
 
 Sa C++, ang **variables** ay parang lalagyan ng data sa memory. Kailangan nating sabihin kung anong uri ng data ang ilalagay bago natin ito gamitin. Huwag iwan na walang laman ang variables.
 
 ---
 
-## 💻 Code Snippets
+## Code Snippets
 
 ### Basic Variable Declaration
 
@@ -45,8 +45,10 @@ int main() {
 
     // I-print ang values
     cout << "Name: " << name << endl;
+    cout << "Initial: " << initial << endl;
     cout << "Age: " << age << endl;
     cout << "Grade: " << grade << endl;
+    cout << "Pi: " << pi << endl;
 
     return 0;
 }
@@ -87,7 +89,7 @@ int main() {
 
 
     // I-print ang values
-    cout << "Name: " << name << endl;
+    cout << "First Name: " << firstName << endl;
     cout << "Age: " << age << endl;
 
     return 0;
@@ -97,15 +99,15 @@ int main() {
 **Output:**
 
 ```
-Enter your name: Juan Dela Cruz
+Enter your first name: Juan
 Enter your age: 20
-Name: Juan Dela Cruz
+First Name: Juan
 Age: 20
 ```
 
 ### Initializing Variables and Getting User Input with spaces in between
 
-Now that we know how we can get a user input but what if we want to get a user input with spaces in between? We can use the cin.ignore() function to clear the newline character from the input buffer before we get the user input by using the getline() function.
+Now that we know how we can get a user input but what if we want to get a user input with spaces in between such as for example 'Juan dela Cruz'? We can use the getline() function to get the user input with spaces.
 
 ```cpp
 #include <iostream>
@@ -116,7 +118,7 @@ int main() {
     string name;
 
     cout << "Enter your name: ";
-    getline(cin, name);
+    getline(cin, name);         // We used getline() to get the user input with spaces
     cout << "Enter your age: ";
     cin >> age;
 
@@ -139,7 +141,7 @@ Age: 20
 
 ---
 
-## 🔥 Problems I Encountered before
+## Problems I Encountered before
 
 ### Problem 1: `cin` vs `getline()`
 
@@ -169,7 +171,7 @@ getline(cin, name);
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 1. **Always initialize variables** - Huwag iwan na walang laman ang variables until you use them.
 2. **Choose the right data type** - `int` para sa whole numbers, `double` para sa decimals
@@ -178,7 +180,7 @@ getline(cin, name);
 
 ---
 
-## 📚 References
+## References
 
 - [LearnCpp.com - Variables](https://www.learncpp.com/cpp-tutorial/variables/)
 - [Cplusplus.com - Data Types](http://www.cplusplus.com/doc/tutorial/variables/)
@@ -186,7 +188,7 @@ getline(cin, name);
 
 ---
 
-## 📝 Personal Notes
+## Personal Notes
 
 ```cpp
 // Reminders:
@@ -199,14 +201,14 @@ getline(cin, name);
 
 ---
 
-## 🔗 Related Lessons
+## Related Lessons
 
 - [Next: Data Types](./02-data-types.md)
 - [Back to C++ Home](./README.md)
 
 ---
 
-## ✅ Practice Exercises
+## Practice Exercises
 
 1. **Gumawa ng program** na may variables para sa:
    - Pangalan (string)
@@ -223,7 +225,7 @@ getline(cin, name);
 
 ---
 
-## 📊 Progress Tracker
+## Progress Tracker
 
 | Concept              | Status | Date   |
 | -------------------- | ------ | ------ |
@@ -234,7 +236,7 @@ getline(cin, name);
 
 ---
 
-## 🎯 Goals for Next Time
+## Goals for Next Time
 
 - [ ] Mag-practice ng `const` variables
 - [ ] Gumawa ng program gamit ang `float` vs `double`
