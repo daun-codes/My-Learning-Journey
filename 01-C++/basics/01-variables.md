@@ -22,7 +22,7 @@ Variables is like a box that holds a value. We can use variables to store data t
 
 ### Basic Variable Declaration
 
-Let's start with a simple variable declaration. We'll use `int` for whole numbers, `double` for decimal numbers, `string` for text, `char` for single letters, and `bool` for true/false values. This is hardcoded values and does not require input from the user.
+Let's start with a simple variable declaration. We'll use `int` for whole numbers, `double` for decimal numbers, `string` for text, `char` for single letters, and `bool` for true/false values. Below is a simple program that declares variables with hardcoded values and does not require input from the user.
 
 ```cpp
 #include <iostream>     // Ginagamit natin ang libary ng iostream to print out values sa console using cout.
