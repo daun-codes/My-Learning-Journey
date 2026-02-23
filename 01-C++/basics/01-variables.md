@@ -1,5 +1,3 @@
-# My Learning Journey
-
 # 📘 C++ Variables - Lesson 01
 
 **Date Reviewed:** February 23, 2026
