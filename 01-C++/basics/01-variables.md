@@ -6,7 +6,7 @@
 
 **Difficulty:** ⭐☆☆☆☆ (Easy)
 
-**Status:** ✅ Completed / 🟡 In Progress / ❌ Not Started
+**Status:** ✅ Completed
 
 ---
 
@@ -19,6 +19,8 @@ Sa C++, ang **variables** ay parang lalagyan ng data sa memory. Kailangan nating
 ## 💻 Code Snippets
 
 ### Basic Variable Declaration
+
+Let's start with a simple variable declaration. We'll use `int` for whole numbers, `double` for decimal numbers, `string` for text, `char` for single letters, and `bool` for true/false values. This is hardcoded values and does not require input from the user.
 
 ```cpp
 #include <iostream>     // Ginagamit natin ang libary ng iostream to print out values sa console using cout.
@@ -56,6 +58,83 @@ int main() {
 Name: Juan Dela Cruz
 Age: 20
 Grade: 1.5
+```
+
+---
+
+### Basic Variable with User Input
+
+Earlier, we had learn that we can use cout to print out values to the console. Now, let's see how we can get user input and store it in a variable.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    string firstName; // Here we declared a string variable but without any value
+
+    /*
+
+    Note: You can declare a variable without assigning a value but make sure to initialize it later before using it.
+
+    */
+
+    cout << "Enter your first name: ";
+    cin >> firstName;
+    cout << "Enter your age: ";
+    cin >> age;
+
+
+    // I-print ang values
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+
+    return 0;
+}
+```
+
+**Output:**
+
+```
+Enter your name: Juan Dela Cruz
+Enter your age: 20
+Name: Juan Dela Cruz
+Age: 20
+```
+
+### Initializing Variables and Getting User Input with spaces in between
+
+Now that we know how we can get a user input but what if we want to get a user input with spaces in between? We can use the cin.ignore() function to clear the newline character from the input buffer before we get the user input by using the getline() function.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    string name;
+
+    cout << "Enter your name: ";
+    getline(cin, name);
+    cout << "Enter your age: ";
+    cin >> age;
+
+    // I-print ang values
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+
+    return 0;
+}
+```
+
+**Output:**
+
+```
+Enter your name: Juan Dela Cruz
+Enter your age: 20
+Name: Juan Dela Cruz
+Age: 20
 ```
 
 ---
