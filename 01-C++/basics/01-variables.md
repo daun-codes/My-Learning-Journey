@@ -10,7 +10,7 @@
 
 ---
 
-## What I Review Today
+## Learning Objectives
 
 In this lesson, we will learn about variables in C++ and how to declare and use them. We will also learn about the best practices in getting user input and how to use the getline() function to get user input with spaces.
 
