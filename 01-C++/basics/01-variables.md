@@ -60,8 +60,11 @@ int main() {
 
 ```
 Name: Juan Dela Cruz
+Initial: J
 Age: 20
 Grade: 1.5
+Pi: 3.14
+
 ```
 
 ---
