@@ -26,4 +26,4 @@ Don Amodia
 
 ## Status and Updates
 
-- Last updated: **Feb 25, 2026** - Added [02. MicroProcessor](./02-MicroProcessor/README.md)
+- Last updated: **Feb 25, 2026** - Added [02. MicroProcessor](./8085/Basic-Instructions/README.md)
