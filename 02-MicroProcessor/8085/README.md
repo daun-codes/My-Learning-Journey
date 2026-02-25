@@ -1,6 +1,6 @@
 # 📚 MASTER NOTES: THE MICROPROCESSOR
 
-This section covers the fundamental concepts of the 8085 microprocessor, including instruction set, memory organization, registers, and program flow. This will help anyone who wants to understand how a 8085 microprocessor works and how to use it in their projects. This will also serve as a reference for those who want to learn more about the 8085 microprocessor and how they can apply it in their projects.
+This section covers the fundamental concepts of the 8085 microprocessor, including instruction set, memory organization, registers, and program flow. This will help anyone who wants to understand how a 8085 microprocessor works and how to use it in their projects. This documentation will give a brief overview of the 8085 microprocessor and its basic instructions in assembly language.
 
 Note: This documentation is a work in progress. You may find some missing topics. Please let me know if you find any errors.
 
