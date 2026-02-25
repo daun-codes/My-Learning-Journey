@@ -1,4 +1,4 @@
-# MICROPROCESSOR ARCHITECTURE AND ORGANIZATION
+# 8085 MICROPROCESSOR ARCHITECTURE AND ORGANIZATION
 
 Welcome to my microprocessor documentation! This repository is dedicated to my journey in learning important concepts in microprocessor architecture and organization.
 
